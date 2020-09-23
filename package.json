@@ -32,8 +32,6 @@
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
-    "escpos-network": "^3.0.0-alpha.5",
-    "escpos-usb": "^3.0.0-alpha.4",
     "jest": "^25.1.0",
     "power-assert": "^1.6.1",
     "standard": "*",
