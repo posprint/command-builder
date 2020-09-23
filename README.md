@@ -1,5 +1,7 @@
 # ESC/POS TSC Buffer Builder
 
+[![Build Status](https://travis-ci.com/sloth-dance/command-builder.svg?token=JN5h9RsNpqeiEDk9f2rW&branch=master)](https://travis-ci.com/sloth-dance/command-builder)
+
 JavaScript library that implements the ESC/POS and TSC protocol to buffer, also provides an AST like JSON tree structure that you can preparing convertible templates (hmtl/xml) as you want.
 
 ### Features
