@@ -1,0 +1,213 @@
+{
+  "elementName": "root",
+  "attributes":
+  {},
+  "children": [
+  {
+    "elementName": "blank",
+    "attributes":
+    {},
+    "children": null
+  },
+  {
+    "elementName": "text",
+    "attributes":
+    {
+      "font-size": "wide-high",
+      "align": "center"
+    },
+    "children": "Change Table"
+  },
+  {
+    "elementName": "blank",
+    "attributes":
+    {},
+    "children": null
+  },
+  {
+    "elementName": "section",
+    "attributes":
+    {
+      "id": "table-info"
+    },
+    "children": [
+    {
+      "elementName": "separator",
+      "attributes":
+      {},
+      "children": null
+    },
+    {
+      "elementName": "text",
+      "attributes":
+      {
+        "font-size": "wide",
+        "align": "center"
+      },
+      "children": "A-T17"
+    },
+    {
+      "elementName": "blank",
+      "attributes":
+      {},
+      "children": null
+    },
+    {
+      "elementName": "text",
+      "attributes":
+      {
+        "align": "center"
+      },
+      "children": "Change to"
+    },
+    {
+      "elementName": "blank",
+      "attributes":
+      {},
+      "children": null
+    },
+    {
+      "elementName": "text",
+      "attributes":
+      {
+        "font-size": "wide",
+        "align": "center"
+      },
+      "children": "A-T18"
+    },
+    {
+      "elementName": "blank",
+      "attributes":
+      {},
+      "children": null
+    },
+    {
+      "elementName": "separator",
+      "attributes":
+      {},
+      "children": null
+    }]
+  },
+  {
+    "elementName": "section",
+    "attributes":
+    {
+      "id": "basic-info"
+    },
+    "children": [
+    {
+      "elementName": "table",
+      "attributes":
+      {
+        "columns-width": "1,3",
+        "columns-align": "left,right",
+        "columns-overflow": "hidden"
+      },
+      "children": [
+      {
+        "elementName": "tr",
+        "attributes":
+        {},
+        "children": [
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": null
+        },
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": null
+        }]
+      },
+      {
+        "elementName": "tr",
+        "attributes":
+        {},
+        "children": [
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": "Order No:"
+        },
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": "#23"
+        }]
+      },
+      {
+        "elementName": "tr",
+        "attributes":
+        {},
+        "children": [
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": null
+        },
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": null
+        }]
+      },
+      {
+        "elementName": "tr",
+        "attributes":
+        {},
+        "children": [
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": "Date:"
+        },
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": "8/29/2020 08:13 AM"
+        }]
+      },
+      {
+        "elementName": "tr",
+        "attributes":
+        {},
+        "children": [
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": null
+        },
+        {
+          "elementName": "td",
+          "attributes":
+          {},
+          "children": null
+        }]
+      }]
+    }]
+  },
+  {
+    "elementName": "separator",
+    "attributes":
+    {},
+    "children": null
+  },
+  {
+    "elementName": "command",
+    "attributes":
+    {
+      "cmd": "cut"
+    },
+    "children": null
+  }]
+}
