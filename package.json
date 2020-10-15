@@ -1,6 +1,6 @@
 {
   "name": "@posprint/command-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript library that implements the ESC/POS and TSC protocol to buffer.",
   "main": "dist/bundle.js",
   "repository": {
@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "escpos": "3.0.0-alpha.3",
+    "is-chinese": "^1.2.9",
     "joi": "14.3.1",
     "qrcode": "^1.4.4",
     "word-width": "1.0.1",
@@ -32,6 +33,8 @@
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
+    "escpos-network": "^3.0.0-alpha.5",
+    "escpos-usb": "^3.0.0-alpha.4",
     "jest": "^25.1.0",
     "power-assert": "^1.6.1",
     "standard": "*",
