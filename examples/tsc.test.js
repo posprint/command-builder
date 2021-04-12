@@ -1,16 +1,33 @@
 const TSC = require('../lib/adapter/tsc')
 const { wordWrap } = require('../lib/utils')
 const { MutableBuffer } = require('mutable-buffer')
+const escpos = require('escpos')
+escpos.Network = require('escpos-network')
+escpos.USB = require('escpos-usb')
+// escpos.Bluetooth = require('escpos-bluetooth')
+// const device = new escpos.Network('192.168.1.133')
+const device = new escpos.USB(0x1fc9, 0x2016)
 
 const text = '123456789abc'
 let wraps = wordWrap(text)
 
-const command = new TSC({ height: 30 })
+const command = new TSC({ height: 60 })
 wraps.map(text => {
   command.text(text)
 })
 command.print()
-console.log(JSON.stringify(JSON.parse(JSON.stringify(command.buffer.flush())).data))
+
+device.open(async (err) => {
+  if (err) {
+    console.log(err)
+    return
+  }
+  const printer = new escpos.Printer(device)
+  const buffer = command.buffer.flush();
+  console.log(JSON.stringify(JSON.parse(JSON.stringify(buffer)).data))
+  printer.raw(buffer)
+  printer.close()
+})
 
 // const lines = wraps.length
 // const num = Math.ceil(lines / 6)

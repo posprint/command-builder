@@ -9,21 +9,21 @@
       "attributes": {
         "align": "center"
       },
-      "children": "---eShine---"
+      "children": "---Rabbit Rabbit Tea---"
     },
     {
       "elementName": "text",
       "attributes": {
-        "max-lines": 4
+        "max-lines": 10
       },
-      "children": "Coffee Mocha Coffee Mocha Coffee Mocha [Tall Tall Tall] $18.00"
+      "children": "MT- Jade Green Milk Tea"
     },
     {
       "elementName": "text",
       "attributes": {
-        "max-lines": 4
+        "max-lines": 10
       },
-      "children": "Extra Shots, Extra Shots1, Extra Shots2"
+      "children": "100% Sweet, 30% lce, Fresh Milk, Cheese Foam, Boba, Grass Jelly, Lychee Jelly"
     },
     {
       "elementName": "separator",
@@ -37,14 +37,14 @@
       "attributes": {
         
       },
-      "children": "04/07 15:50 #54 [1/3]"
+      "children": "04/13 14:25 #145 [1/3]"
     },
     {
       "elementName": "text",
       "attributes": {
         
       },
-      "children": "Dine In (425)298-5239"
+      "children": "To go (206) 453-5601"
     }
   ]
 }
