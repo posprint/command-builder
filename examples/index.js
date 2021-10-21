@@ -4,8 +4,9 @@ const escpos = require('escpos')
 escpos.Network = require('escpos-network')
 escpos.USB = require('escpos-usb')
 // escpos.Bluetooth = require('escpos-bluetooth')
-// const device = new escpos.Network('192.168.1.133')
-const device = new escpos.USB(0x1fc9, 0x2016)
+const device = new escpos.Network('192.168.0.76')
+// const device = new escpos.USB(0x1fc9, 0x2016)
+// const device = new escpos.USB(0x0471, 0x0055)
 
 const {buildCommand, validateNodes} = require('../')
 const testDir = './'

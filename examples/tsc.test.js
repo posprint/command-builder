@@ -8,12 +8,12 @@ escpos.USB = require('escpos-usb')
 // const device = new escpos.Network('192.168.1.133')
 const device = new escpos.USB(0x1fc9, 0x2016)
 
-const text = '123456789abc'
+const text = '1234567890abcdefghi'
 let wraps = wordWrap(text)
 
-const command = new TSC({ height: 60 })
-wraps.map(text => {
-  command.text(text)
+const command = new TSC({ height: 30 })
+wraps.map((text,i) => {
+  command.text(text, undefined, undefined, undefined, i===0?2:1)
 })
 command.print()
 
@@ -24,7 +24,7 @@ device.open(async (err) => {
   }
   const printer = new escpos.Printer(device)
   const buffer = command.buffer.flush();
-  console.log(JSON.stringify(JSON.parse(JSON.stringify(buffer)).data))
+  // console.log(JSON.stringify(JSON.parse(JSON.stringify(buffer)).data))
   printer.raw(buffer)
   printer.close()
 })

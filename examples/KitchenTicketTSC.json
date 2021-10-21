@@ -23,7 +23,14 @@
       "attributes": {
         "max-lines": 10
       },
-      "children": "100% Sweet, 30% lce, Fresh Milk, Cheese Foam, Boba, Grass Jelly, Lychee Jelly"
+      "children": "100% Sweet, 30% lce"
+    },
+    {
+      "elementName": "text",
+      "attributes": {
+        "max-lines": 10
+      },
+      "children": " "
     },
     {
       "elementName": "separator",
@@ -42,9 +49,9 @@
     {
       "elementName": "text",
       "attributes": {
-        
+        "align": "right"
       },
-      "children": "To go (206) 453-5601"
+      "children": "To go (206)"
     }
   ]
 }
