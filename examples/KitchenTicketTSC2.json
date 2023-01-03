@@ -1,0 +1,16 @@
+{
+  "elementName": "root",
+  "attributes": {
+      "isa": "tsc"
+  },
+  "children": [
+      {
+        "elementName": "text",
+        "attributes": {
+            "align": "center",
+            "font-size": "normal"
+        },
+        "children": "这是热的"
+      }
+  ]
+}

@@ -2,11 +2,11 @@ const fs = require('fs')
 const path = require('path')
 const escpos = require('escpos')
 escpos.Network = require('escpos-network')
-escpos.USB = require('escpos-usb')
+// escpos.USB = require('escpos-usb')
 // escpos.Bluetooth = require('escpos-bluetooth')
-const device = new escpos.Network('192.168.0.122')
-// const device = new escpos.USB(0x1fc9,÷ 0x2016)
-// const device = new escpos.USB(0x0471, 0x0055)
+const device = new escpos.Network('192.168.0.50')
+// const device = new escpos.USB(0x20d1,0x7007)
+// const device = new escpos.USB(0x0483, 0x5743)
 
 const {buildCommand, validateNodes} = require('..')
 const testDir = './'
@@ -34,15 +34,16 @@ exec = async () => {
     try {
       for (const o of data) {
         current = o
-        const commands = await buildCommand(o, { type: 'ESC', paperSize: [58, 80], encoding: 'GBK', direction: 1, margin:0, printerModel: 'sunmi' })
+        const commands = await buildCommand(o, { type: 'ESC', paperSize: [80, 80], encoding: ' GBK', direction: 1, margin:0, printerModel: 'tcp' })
         const buffer = commands.getBuffer().flush()
+        // console.log(JSON.stringify(buffer))
         printer.raw(buffer)
       }
     } catch (e) {
       console.log(e)
       console.log(current)
     }
-    const array = []
+    // const array = []
     // printer.raw(Buffer.from(array))
 
     printer.close()

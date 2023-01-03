@@ -46,7 +46,7 @@
                     {
                         "elementName": "section",
                         "attributes": {
-                            "width": 0.6
+                            "width": 0.5
                         },
                         "children": [
                             {
@@ -54,7 +54,7 @@
                                 "attributes": {
                                     "max-lines": 3
                                 },
-                                "children": "杭州远洋乐堤港店"
+                                "children": "测试1"
                             },
                             {
                                 "elementName": "text",
@@ -68,16 +68,22 @@
                     {
                         "elementName": "section",
                         "attributes": {
-                            "width": 0.4
+                            "width": 0.5
                         },
                         "children": [
                             {
-                                "elementName": "img",
+                                "elementName": "text",
                                 "attributes": {
                                     "align": "right",
-                                    "format": "png"
+                                    "max-lines": 3
                                 },
-                                "children": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAAAXNSR0IArs4c6QAAA/JJREFUeF7t3eFygkAMBGB9/4e2gzO0jhXYg0uyG7d/e8BlP3KgaHu/3W6Pm3/aJnA3cFvbZ2EG7u1r4Oa+BjZw9wSa1+drsIGbJ9C8PHewgZsn0Lw8d7CBmyfQvDx3sIGbJ9C8PHewgZsn0Lw8d7CBmyfQvDx3sIGbJ9C8PHewgZsn0Lw8d7CBmyfQvDx3sIGbJ9C8PHewgXUTeDywb+Xc78t53vOnTQejmChjF3Rp4NmoW/jK2JLAWbDv4IrQUsCjsCMgI/se2S96SYgaJwOMAMwMPvt4Xwt8FPRM1E8hVx//Kjx1B++FGw07il0xHwSfFngLtzpItpPuCJkSmBX3NUyFOS7zpQP+FFx11251iQIyFbAS7orOjkwDrIirgEwBrIy7h8xwaSkH7oC7hWzg5a+wvT3SYwjl6KXH3u/XeljqKO3gTt175aSI3LYM2LiRrH/7NnBOzmVHoQFmuWaVSQQduAS4241VkM2U3Rp4Soy8O0kH9s1V7slQDuxrbyx4OvBSzmsXG7ghcGxJ+Xtn/hBASQfnE8Qc8ejzWu9HrVitDHzSfhS3CtvAJ4Cv4q6HzOjoEuAloIziTthBm8wCzoBOBR59DTwaZMZJMzon6IxZPhwX9A3HNODRO82oINHAs8d9FfC34UYu1ZQdbOB56wcl8Pu7XfPK5d2T/BK9hbZX2IxOnh3cjDl9Os1mz/N32c/876Ojd9GM/RYBHIW75Je2RK9YHR72z0SOxDXwhSXiKnI0bMkS/ek6nFXoBcvNTc8gZ9frJfqiPIKcjfpaUjnw8zoR9DbdRbsWm6cDd1um2c8CA7MLXZwfBbCX6YuKO5uXAHuZjgN93zMNsLs4Br0M2F0cA0rTwWcePuRE0usopR3sLo4/meiA1a/FbN/aKAfutFQzPimjAO6AzPqsmwZYGXnrgQPDe+z0wOzXZGbcZ3aZH9lB7hnZA3utQWGudMBbSzVbJyvgUnbw2iGj34RAVocZY1jntVUbZQezIqvhUncwcq3LWrYVYdf8qDsYRf4tZuJHf9g/a4VebmSAkWX735OUQXAENWvVQAGPxskBn4E+CmHk9wxvXgzNl+118Mjk915Sje5nb7wa6mstsh38CQRdYlF8ZVi5mywUZfTGLOIG7cxco7Zp1cFRISnv18DKesDcDQyEpDzEwMp6wNwNDISkPMTAynrA3A0MhKQ8xMDKesDcDQyEpDzEwMp6wNwNDISkPMTAynrA3A0MhKQ8xMDKesDcDQyEpDzEwMp6wNwNDISkPMTAynrA3A0MhKQ8xMDKesDcDQyEpDzEwMp6wNwNDISkPMTAynrA3A0MhKQ8xMDKesDcDQyEpDzkB4QHsBCaYKNqAAAAAElFTkSuQmCC"
+                                "children": "测试3第一行文字换行测试"
+                            },
+                            {
+                                "elementName": "text",
+                                "attributes": {
+                                },
+                                "children": "测试4"
                             }
                         ]
                     }
