@@ -16,7 +16,9 @@
                     "children": [
                         {
                             "elementName": "td",
-                            "attributes": {},
+                            "attributes": {
+                                "font-size": "wide-high"
+                            },
                             "children": "打印时间:"
                         },
                         {
