@@ -4,7 +4,7 @@ const escpos = require('escpos')
 escpos.Network = require('escpos-network')
 escpos.USB = require('escpos-usb')
 // escpos.Bluetooth = require('escpos-bluetooth')
-const device = new escpos.Network('192.168.9.152')
+const device = new escpos.Network('192.168.9.136')
 // const device = new escpos.USB(0x1fc9,0x2016)
 // const device = new escpos.USB(0x0471, 0x0055)
 

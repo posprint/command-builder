@@ -14,6 +14,23 @@
             "children": "iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAAAAACreq1xAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAHdElNRQfnAR8JOzN+PFpCAAAD70lEQVRYw+2XWXcaVxCEv7vf2Ri0HNtZHvP//1biyJawBGiYGag8yCiOwGJ5DfXIPafONF3VXQ0XXHDBBRccQMbgwVoMkDyQcJTgHP4MPge+sRlaKAuMy85CQ6i4PeP7ojG4CQUprAbpUfoiwU0kYQhnMDqip3TjvbSStBwkSQ9AvIXJ6YTeW9CdNO+lfpRWa82ftZKgOqcnNwHdr6XnVXBQG6CM2jxprhbSGYwP6rV+oC0IAbAxAkZ/jlqs6zOaIq20oTYQyJgAwRZY4rOkTT6eKVGRCh61kiG4nV4FjFZ69A1cHftvRpw0zFryHnmETDsbtKacQDyC7ZeS2o/SrGG/Hzw0M41rB1Ae5JuAI/ytOxvDBGffvlvHJER7J3kqd0zFPtNKy2kNDW5HHsnRQD19XhHJXB0m/EQp9R1UFq5336/BVhD5g+oYNSbI8yflqcWFate0gSo47NRDsjT2MGPLSpqDC1xhzdtnY7l6UVOqscd0OSH1GPJ/7WUDuLKASCZCMJBpIJrCvivHqRk0Wkj4Iv1IaiYJvGEKuOypMgbbgMW/w1jCQiTXFuAi2C1uIZSkbHlVn5vUUORQvC/w+NGCgTolePVsxH2CArKvnR40aqUFtFfATU3zc74CkovfBWNw31H64sW5ljDMJA16kgQGjyve2TGG32BqqLDUPzor4gLtFCtJ/eaL1C81VuYj1/Bz+VjUaYDbv6Tu+UFbdNfcYCOOpTS+/DZoLnHFHof+AA1aCoeGpfSozXdooWGtmTRoqaWeV+oeNd9oI0wG9+8HvcXa3xfrvSVY27fIYymGGO9TpBIHUdiZ1GX7tmRp0Ms407dl902P6rUYtDxYckBzZdxOU2ooM8FjR200SE8zaaaDTYG15hQ7siFmCkgTSqRBm05a3x0hm9wgqeCtsAPcUEYI3CKplzYCDgq7wGzWn9mxHq2hdbRM4VfQ2oKHq8PWM4Wk3eGQDY4GIiUQCR6PcxwcDqZg1Gfxdny9+C7biIMGuKYC5w6PLya+H0SGENnd5ycPWI8r7yUPNwZSsSurU1cAkLuvaqDB7Xk8dUlVVDTS/KuFD9C+fT99jRpqWEmbGtrd2Hb6og+RlFA/8CHv1euJUSQAZEuv4WvJdDctnRqWDImMA220bzidFede8CyNsA2chgQeEkhancCzRWM7/Sm9RuKQEjiPtO7E6ZnYgJc0bEN79ODCetSwUEd0JxNGPkDstT0rFuq0UaeFRDznlDKQI8ZsDx+NGtWpF1xjTueD64+0MNmeZl0vjStjPROw/H4ynwVXJ8z2eExAnBgoKPfl0MMlexOhfD1vKQjgMVSAP+O8veCCCy74f+EfBkvlrginGR4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDEtMzFUMDk6NTk6NTErMDA6MDD7tAlPAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTAxLTMxVDA5OjU5OjUxKzAwOjAwiumx8wAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0wMS0zMVQwOTo1OTo1MSswMDowMN38kCwAAAAASUVORK5CYII="
         },
         {
+            "elementName": "text",
+            "attributes": {},
+            "children": " "
+        },
+        {
+            "elementName": "text",
+            "attributes": {
+                "align": "center"
+            },
+            "children": "LOGO的自定义文字"
+        },
+        {
+            "elementName": "text",
+            "attributes": {},
+            "children": " "
+        },
+        {
             "elementName": "table",
             "attributes": {
                 "columns-width": "1,1",
@@ -26,9 +43,7 @@
                     "children": [
                         {
                             "elementName": "td",
-                            "attributes": {
-                                "font-size": "wide-high"
-                            },
+                            "attributes": {},
                             "children": "#54"
                         },
                         {
@@ -41,11 +56,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "elementName": "separator",
-            "attributes": {},
-            "children": null
         },
         {
             "elementName": "table",
@@ -73,37 +83,16 @@
             ]
         },
         {
-            "elementName": "text",
+            "elementName": "separator",
             "attributes": {},
-            "children": " "
+            "children": null
         },
         {
-            "elementName": "table",
+            "elementName": "text",
             "attributes": {
-                "columns-width": "4,1",
-                "columns-align": "left,right"
+                "max-lines": 2
             },
-            "children": [
-                {
-                    "elementName": "tr",
-                    "attributes": {},
-                    "children": [
-                        {
-                            "elementName": "td",
-                            "attributes": {
-                                "font-size": "wide-high",
-                                "max-lines": 2
-                            },
-                            "children": "摩卡咖啡摩卡咖啡"
-                        },
-                        {
-                            "elementName": "td",
-                            "attributes": {},
-                            "children": "118"
-                        }
-                    ]
-                }
-            ]
+            "children": "摩卡咖啡摩卡咖啡"
         },
         {
             "elementName": "text",
@@ -116,18 +105,13 @@
             "elementName": "section",
             "attributes": {
                 "position": "bottom",
-                "height": 100
+                "height": 70
             },
             "children": [
                 {
                     "elementName": "text",
                     "attributes": {},
                     "children": "备注：半糖"
-                },
-                {
-                    "elementName": "separator",
-                    "attributes": {},
-                    "children": null
                 },
                 {
                     "elementName": "table",
