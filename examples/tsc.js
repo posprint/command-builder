@@ -4,8 +4,8 @@ const escpos = require('escpos')
 escpos.Network = require('escpos-network')
 escpos.USB = require('escpos-usb')
 // escpos.Bluetooth = require('escpos-bluetooth')
-const device = new escpos.Network('192.168.0.76')
-// const device = new escpos.USB(0x1fc9,÷ 0x2016)
+const device = new escpos.Network('192.168.9.136')
+// const device = new escpos.USB(0x1fc9,0x2016)
 // const device = new escpos.USB(0x0471, 0x0055)
 
 const {buildCommand, validateNodes} = require('../')
@@ -34,7 +34,7 @@ exec = async () => {
     try {
       for (const o of data) {
         current = o
-        const commands = await buildCommand(o, { type: 'TSC', paperSize: [57, 30], encoding: 'UTF-8', direction: 1, margin:1 })
+        const commands = await buildCommand(o, { type: 'TSC', paperSize: [40, 60], encoding: 'GBK', direction: 1, margin:0, space: 3 })
         const buffer = commands.getBuffer().flush()
         printer.raw(buffer)
       }
@@ -50,3 +50,8 @@ exec = async () => {
 }
 
 exec()
+// exec()
+// exec()
+// exec()
+// exec()
+// exec()
