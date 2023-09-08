@@ -187,6 +187,9 @@ You can use different json parser to convert the HTML/XML or other source file i
 
 View [source code](https://github.com/sloth-dance/command-builder/tree/master/examples) in the exmaples folder about ESC and TSC content printing.
 
+![Actual print effect 1](examples/ToUpTicket.json.jpeg)
+![Actual print effect 2](examples/Section.json.jpeg)
+
 ### Recommended HTML/XML Parser
 1. Live demo of parsers look [here](https://astexplorer.net/#/2AmVrGuGVJ)
 2. React temple parser supports all nodes of current library is available [here](https://github.com/sloth-dance/template)
